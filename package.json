@@ -4,13 +4,17 @@
   "main": "index.js",
   "author": "William Augusto",
   "scripts": {
-    "test": "jest"
+    "test-cpf": "jest cpf"
   },
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.1",
+    "babel-jest": "^27.0.2",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.4",
