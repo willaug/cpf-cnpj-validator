@@ -1,0 +1,7 @@
+{
+  "name": "cpf-cnpj-rg-cep-validator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "William Augusto",
+  "license": "MIT"
+}
