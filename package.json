@@ -5,8 +5,15 @@
   "author": "William Augusto",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
     "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "jest": "^27.0.4",
     "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "validator": "^13.6.0"
   }
 }
