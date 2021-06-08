@@ -15,4 +15,9 @@ describe('CPF', () => {
     const value = '502.597.100-40';
     expect(validator.isCPF(value)).toEqual(true);
   });
+
+  it('Deve ser um CPF formatado corretamente e válido', () => {
+    const value = '316.696.020-10';
+    expect(validator.isFormattedCPF(value)).toEqual(true);
+  });
 });

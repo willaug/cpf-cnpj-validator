@@ -4,7 +4,8 @@
   "main": "index.js",
   "author": "William Augusto",
   "scripts": {
-    "test-cpf": "jest cpf"
+    "test-cpf": "jest __tests__/cpf.test.ts",
+    "test-cnpj": "jest __tests__/cnpj.test.ts"
   },
   "license": "MIT",
   "devDependencies": {
