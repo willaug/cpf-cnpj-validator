@@ -1,5 +1,7 @@
+import validateCPF from './validations/cpf';
+
 export default class Validator {
-  public static isCPF(): boolean {
-    return false;
+  public static isCPF(cpf: unknown): boolean {
+    return validateCPF(cpf);
   }
 }
