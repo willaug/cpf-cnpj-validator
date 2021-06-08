@@ -12,7 +12,12 @@ describe('CNPJ', () => {
   });
 
   it('Deve ser validado em todas as tentativas', () => {
-    const value = '11.444.777/0001-61';
+    const value = 11444777000161;
     expect(validator.isCNPJ(value)).toEqual(true);
+  });
+
+  it('Deve possuir um formato válido', () => {
+    const value = '11.444.777/0001-61';
+    expect(validator.isFormattedCNPJ(value)).toEqual(true);
   });
 });
