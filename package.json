@@ -1,14 +1,16 @@
 {
-  "name": "cpf-cnpj-rg-cep-validator",
+  "name": "cpf-cnpj-cnh-validator",
   "version": "1.0.0",
   "main": "index.js",
   "author": "William Augusto",
   "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "test-cpf": "jest __tests__/cpf.test.ts",
     "test-cnpj": "jest __tests__/cnpj.test.ts"
   },
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-typescript": "^7.13.0",
