@@ -35,7 +35,7 @@ const validateCPF = (cpf: unknown): boolean => {
     return false;
   }
 
-  let filteredCPF: string | number = String(cpf);
+  let filteredCPF = String(cpf);
   filteredCPF = filteredCPF.replace(/\.|-/g, '');
 
   if (filteredCPF.length !== 11) {

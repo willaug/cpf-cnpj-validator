@@ -11,7 +11,7 @@ describe('CPF', () => {
     expect(validator.isCPF(value)).toEqual(true);
   });
 
-  it('Deve ser validado em uma das tentativas', () => {
+  it('Deve ser validado em todas as tentativas', () => {
     const value = '502.597.100-40';
     expect(validator.isCPF(value)).toEqual(true);
   });
